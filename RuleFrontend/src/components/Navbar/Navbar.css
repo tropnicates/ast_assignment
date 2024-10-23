@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #004d40;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    color: white;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 4px;
+}
+
+.navbar a:hover {
+    background-color: #00796b; /* Darker teal */
+    color: #fff; 
+}

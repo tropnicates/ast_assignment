@@ -1,0 +1,102 @@
+.rule-editor{
+    display: flex;
+    width: 100%;
+    height: 93vh;
+    padding: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.container-right{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+}
+.ast-display-editor{
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+}
+.rule-editor h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-bottom: 2vh;
+    color: #004d40;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.rule-editor-form label{
+    margin: 10px;
+    font-size: 17px;
+}
+.rule-editor-form select {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.rule-editor-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin-top: 20px;
+}
+.dropdown{
+    display: flex;
+    margin-bottom: 15px;
+}
+.edit-form{
+    margin: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+.edit-form-textBtn textarea{
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #00796b;
+    border-radius: 4px;
+    resize: none;
+}
+.edit-form-textBtn button{
+    width: 90px;
+    height: 34px;
+    background-color: #00796b;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.edit-form-textBtn button:hover {
+    background-color: #004d40;
+}
+.edit-form-textBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+}
+.success-msg p {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #004d40;
+}
