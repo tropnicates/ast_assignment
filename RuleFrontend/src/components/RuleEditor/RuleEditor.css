@@ -30,7 +30,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
     margin-bottom: 2vh;
-    color: #004d40;
+    color: blue;
     font-size: 30px;
     font-weight: bolder;
 }
@@ -68,14 +68,14 @@
 .edit-form-textBtn textarea{
     width: 70%;
     padding: 10px;
-    border: 1px solid #00796b;
+    border: 1px solid blue;
     border-radius: 4px;
     resize: none;
 }
 .edit-form-textBtn button{
     width: 90px;
     height: 34px;
-    background-color: #00796b;
+    background-color: blue;
     color: white;
     padding: 5px;
     border: none;
@@ -84,7 +84,7 @@
     transition: background-color 0.3s;
 }
 .edit-form-textBtn button:hover {
-    background-color: #004d40;
+    background-color: blue;
 }
 .edit-form-textBtn{
     display: flex;
@@ -98,5 +98,5 @@
     margin-top: 10px;
     font-size: 20px;
     font-weight: bold;
-    color: #004d40;
+    color: blue;
 }
